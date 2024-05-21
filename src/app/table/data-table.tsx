@@ -32,7 +32,7 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
-import { paginationTemplate } from "../_components/paginations"
+import { PaginationTemplate } from "../_components/paginations"
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]
@@ -158,7 +158,7 @@ export function DataTable<TData, TValue>({
         </Table>
       </div>
       <div className="flex items-center justify-end space-x-2 py-4">
-        <paginationTemplate count={total} />
+        <PaginationTemplate count={total} />
       </div>
     </div>
   )

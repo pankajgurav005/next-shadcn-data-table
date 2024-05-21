@@ -15,7 +15,7 @@ interface paginationProps {
   count: number
 }
 
-export function paginationTemplate({ count = 100 } : paginationProps) {
+export function PaginationTemplate({ count = 100 } : paginationProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const search = Object.fromEntries(searchParams)
@@ -55,7 +55,7 @@ export function paginationTemplate({ count = 100 } : paginationProps) {
           // }
 
           return(
-            <PaginationItem>
+            <PaginationItem key={itm.page}>
               <PaginationLink className="cursor-pointer" onClick={() => router.push(`${pathname}?skip=${itm.skip}&limit=${itm.limit}`)}>{ itm.page }</PaginationLink>
             </PaginationItem>
           )
