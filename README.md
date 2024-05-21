@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next shadcn ui Data Table
 
-## Getting Started
+Welcome to the nextjs shadcn ui Data Table repository! This project features a user interface (UI) table built with shadcn UI design elements. The table incorporates server-side pagination and sorting, along with client-side filtering for a seamless data browsing experience.
 
-First, run the development server:
+## Live Demo
+
+Check out the live demo: [SHADCn Data Table](https://next-shadcn-data-table.vercel.app/)
+
+## Features
+
+- **Server-Side Pagination**: Easily navigate through large datasets with pagination handled efficiently on the server.
+- **Sorting**: Sort your data dynamically based on column headers for better organization.
+- **Client-Side Filtering**: Quickly find the data you need with filtering capabilities right in the browser.
+- **shadcn UI**: Enjoy a sleek and modern user interface design provided by SHADCn.
+
+## Usage
+
+To use the SHADCn Data Table in your project, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/pankajgurav005/next-data-table.git
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Access the application at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Contributions are welcome! If you have suggestions, feature requests, or found a bug, please open an issue or submit a pull request.
 
-## Learn More
+## Credits
 
-To learn more about Next.js, take a look at the following resources:
+This project was created by [Pankaj Gurav] and is licensed under the [License Name] License.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to customize this template according to your project's specifics. Let me know if you need further assistance!
